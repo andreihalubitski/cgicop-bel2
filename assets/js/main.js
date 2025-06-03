@@ -579,7 +579,7 @@
 	
 
 		////////////////////////////////////////////////////
-		// Home One offer Active
+		// Главная One offer Active
 		if ($('.tp-offer-active').length > 0) {
 		var slider = new Swiper('.tp-offer-active', {
 			slidesPerView: 4,
@@ -619,7 +619,7 @@
 
 
 		////////////////////////////////////////////////////
-		// Home One portfolio Active
+		// Главная One portfolio Active
 		if ($('.tp-portfolio-active').length > 0) {
 		var slider = new Swiper('.tp-portfolio-active', {
 			slidesPerView: 4,
@@ -650,7 +650,7 @@
 
 
 		////////////////////////////////////////////////////
-		// Home One service Active
+		// Главная One service Active
 		if ($('.tp-service-5-active').length > 0) {
 		var slider = new Swiper('.tp-service-5-active', {
 			slidesPerView: 4,
@@ -681,7 +681,7 @@
 
 
 		////////////////////////////////////////////////////
-		// Home One service Active
+		// Главная One service Active
 		if ($('.tp-testimonial-5-active').length > 0) {
 		var slider = new Swiper('.tp-testimonial-5-active', {
 			slidesPerView: 1,
@@ -695,7 +695,7 @@
 
 
 		////////////////////////////////////////////////////
-		// Home One portfolio Active
+		// Главная One portfolio Active
 		if ($('.tp-portfolio-3-active').length > 0) {
 		var slider = new Swiper('.tp-portfolio-3-active', {
 			slidesPerView: 4,
@@ -726,7 +726,7 @@
 
 
 		////////////////////////////////////////////////////
-		// Home One team Active
+		// Главная One team Active
 		if ($('.tp-team-2-active').length > 0) {
 		var slider = new Swiper('.tp-team-2-active', {
 			slidesPerView: 4,
@@ -756,7 +756,7 @@
 		}
 
 				////////////////////////////////////////////////////
-		// Home One portfolio-7 Active
+		// Главная One portfolio-7 Active
 		if ($('.tp-portfolio-7-active').length > 0) {
 			var slider = new Swiper('.tp-portfolio-7-active', {
 				slidesPerView: 4,
@@ -787,7 +787,7 @@
 	
 
 		////////////////////////////////////////////////////
-		// Home two brand Active
+		// Главная two brand Active
 		if ($('.tp-brand-active').length > 0) {
 		var slider = new Swiper('.tp-brand-active', {
 			slidesPerView: 5,
@@ -829,7 +829,7 @@
 
 
 		////////////////////////////////////////////////////
-		// Home two brand Active
+		// Главная two brand Active
 		if ($('.tp-brand-3-active').length > 0) {
 		var slider = new Swiper('.tp-brand-3-active', {
 			slidesPerView: 5,
@@ -870,7 +870,7 @@
 
 
 		////////////////////////////////////////////////////
-		// Home two testimonial Active
+		// Главная two testimonial Active
 		if ($('.tp-testimonial-active').length > 0) {
 		var slider = new Swiper('.tp-testimonial-active', {
 			slidesPerView: 3,
@@ -901,7 +901,7 @@
 
 
 		////////////////////////////////////////////////////
-		// Home two testimonial Active
+		// Главная two testimonial Active
 		if ($('.tp-testimonial-6-active').length > 0) {
 		var slider = new Swiper('.tp-testimonial-6-active', {
 			slidesPerView: 3,
@@ -933,7 +933,7 @@
 
 
 		////////////////////////////////////////////////////
-		// Home six project-6 Active
+		// Главная six project-6 Active
 		if ($('.tp-project-6-active').length > 0) {
 		var slider = new Swiper('.tp-project-6-active', {
 			slidesPerView: 4,

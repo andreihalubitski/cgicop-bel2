@@ -66,7 +66,7 @@
 	07. PAGES CSS
 	---------------------------------
 		7.1 Hero Css
-		7.2 About Css
+		7.2 О нас Css
 		7.3 Awerds
 		7.4 Counter Css
 		7.5 Video Play Css
@@ -82,7 +82,7 @@
 		8.5 Pricing Css
 		8.6 Project Css
 		8.7 Service Css
-		8.8 Shop Css
+		8.8 Магазин Css
 		8.9 Team Css
 		9.0 Testimonial Css
 
@@ -4836,7 +4836,7 @@ div.demo img {
 }
 
 /*----------------------------------------*/
-/*  5.4 Blog css
+/*  5.4 Блог css
 /*----------------------------------------*/
 .tp-blog-shape {
   position: absolute;
@@ -7961,7 +7961,7 @@ blockquote img {
 }
 
 /*----------------------------------------*/
-/*  7.2 About Css
+/*  7.2 О нас Css
 /*----------------------------------------*/
 .tp-about-shape {
   position: absolute;
@@ -13852,7 +13852,7 @@ blockquote img {
 }
 
 /*----------------------------------------*/
-/*  8.8 Shop Css
+/*  8.8 Магазин Css
 /*----------------------------------------*/
 .tp-shop-item:hover .tp-shop-btn {
   opacity: 1;

@@ -1,12 +1,12 @@
 $(function() {
 
 	// Get the form.
-	var form = $('#contact-form');
+	var form = $('#Контакты-form');
 
 	// Get the messages div.
 	var formMessages = $('.ajax-response');
 
-	// Set up an event listener for the contact form.
+	// Set up an event listener for the Контакты form.
 	$(form).submit(function(e) {
 		// Stop the browser from submitting the form.
 		e.preventDefault();
@@ -29,7 +29,7 @@ $(function() {
 			$(formMessages).text(response);
 
 			// Clear the form.
-			$('#contact-form input,#contact-form textarea').val('');
+			$('#Контакты-form input,#Контакты-form textarea').val('');
 		})
 		.fail(function(data) {
 			// Make sure that the formMessages div has the 'error' class.

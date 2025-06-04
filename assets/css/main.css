@@ -4502,7 +4502,7 @@ div.demo img {
   padding: 10px 25%;
 }
 .mean-container .mean-bar, .mean-container .mean-bar * {
-  /* Fix for box sizing on Foundation Framework etc. */
+  /* Fix for box sizing on Торговля Framework etc. */
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
   box-sizing: content-box;

@@ -619,9 +619,9 @@
 
 
 		////////////////////////////////////////////////////
-		// Главная One Проекты Active
-		if ($('.tp-Проекты-active').length > 0) {
-		var slider = new Swiper('.tp-Проекты-active', {
+		// Главная One project Active
+		if ($('.tp-project-active').length > 0) {
+		var slider = new Swiper('.tp-project-active', {
 			slidesPerView: 4,
 			spaceBetween: 10,
 			loop: true,
@@ -695,9 +695,9 @@
 
 
 		////////////////////////////////////////////////////
-		// Главная One Проекты Active
-		if ($('.tp-Проекты-3-active').length > 0) {
-		var slider = new Swiper('.tp-Проекты-3-active', {
+		// Главная One project Active
+		if ($('.tp-project-3-active').length > 0) {
+		var slider = new Swiper('.tp-project-3-active', {
 			slidesPerView: 4,
 			spaceBetween: 30,
 			loop: true,
@@ -756,9 +756,9 @@
 		}
 
 				////////////////////////////////////////////////////
-		// Главная One Проекты-7 Active
-		if ($('.tp-Проекты-7-active').length > 0) {
-			var slider = new Swiper('.tp-Проекты-7-active', {
+		// Главная One project-7 Active
+		if ($('.tp-project-7-active').length > 0) {
+			var slider = new Swiper('.tp-project-7-active', {
 				slidesPerView: 4,
 				spaceBetween: 30,
 				loop: true,

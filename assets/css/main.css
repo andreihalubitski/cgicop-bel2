@@ -72,7 +72,7 @@
 		7.5 Video Play Css
 		7.6 Brand Css
 		7.7 Company Css
-		7.8 Контакты Css
+		7.8 contact Css
 		7.9 Cta Css
 		8.0 Faq Css
 		8.1 Feature Css
@@ -3574,30 +3574,30 @@ div.demo img {
     padding: 18px 40px;
   }
 }
-.tp-header-Контакты-inner {
+.tp-header-contact-inner {
   border-right: 1px solid #ededed;
   padding-right: 30px;
   margin-right: 30px;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px) {
-  .tp-header-Контакты-inner {
+  .tp-header-contact-inner {
     margin-right: 20px;
     padding-right: 20px;
   }
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .tp-header-Контакты-inner {
+  .tp-header-contact-inner {
     margin-right: 0px;
     padding-right: 20px;
   }
 }
-.tp-header-Контакты-content p {
+.tp-header-contact-content p {
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 2px;
   color: var(--tp-text-body);
 }
-.tp-header-Контакты-content span {
+.tp-header-contact-content span {
   display: block;
   font-size: 16px;
   font-weight: 700;
@@ -3608,13 +3608,13 @@ div.demo img {
   -o-transition: all 0.3s 0s ease-out;
   transition: all 0.3s 0s ease-out;
 }
-.tp-header-Контакты-content span:hover {
+.tp-header-contact-content span:hover {
   color: var(--tp-theme-primary);
 }
-.tp-header-Контакты-icon:not(:last-of-type) {
+.tp-header-contact-icon:not(:last-of-type) {
   margin-right: 20px;
 }
-.tp-header-Контакты-icon span, .tp-header-Контакты-icon button {
+.tp-header-contact-icon span, .tp-header-contact-icon button {
   position: relative;
   display: inline-block;
   cursor: pointer;
@@ -3630,14 +3630,14 @@ div.demo img {
   -o-transition: all 0.3s 0s ease-out;
   transition: all 0.3s 0s ease-out;
 }
-.tp-header-Контакты-icon span:hover, .tp-header-Контакты-icon button:hover {
+.tp-header-contact-icon span:hover, .tp-header-contact-icon button:hover {
   background: var(--tp-theme-secondary);
   border: 1px solid var(--tp-theme-secondary);
 }
-.tp-header-Контакты-icon span:hover i, .tp-header-Контакты-icon button:hover i {
+.tp-header-contact-icon span:hover i, .tp-header-contact-icon button:hover i {
   color: var(--tp-common-white);
 }
-.tp-header-Контакты-icon span i, .tp-header-Контакты-icon button i {
+.tp-header-contact-icon span i, .tp-header-contact-icon button i {
   font-size: 22px;
   font-weight: 500;
   color: var(--tp-heading-primary);
@@ -11444,15 +11444,15 @@ blockquote img {
 }
 
 /*----------------------------------------*/
-/*  7.8 Контакты Css
+/*  7.8 contact Css
 /*----------------------------------------*/
 @media (max-width: 575px) {
-  .tp-Контакты-area {
+  .tp-contact-area {
     padding-top: 130px;
     padding-bottom: 130px;
   }
 }
-.tp-Контакты-bg {
+.tp-contact-bg {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -11461,7 +11461,7 @@ blockquote img {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.tp-Контакты-bg::before {
+.tp-contact-bg::before {
   position: absolute;
   content: "";
   top: 0;
@@ -11471,151 +11471,151 @@ blockquote img {
   opacity: 0.949;
   background: var(--tp-theme-secondary);
 }
-.tp-Контакты-title-wrapper {
+.tp-contact-title-wrapper {
   padding-right: 24px;
   z-index: 1;
 }
-.tp-Контакты-title-wrapper .tp-section-title {
+.tp-contact-title-wrapper .tp-section-title {
   color: var(--tp-common-white);
   margin-bottom: 30px;
 }
-.tp-Контакты-title-wrapper .tp-section-title-pre {
+.tp-contact-title-wrapper .tp-section-title-pre {
   color: var(--tp-common-white);
 }
-.tp-Контакты-title-wrapper .tp-section-title-pre::after {
+.tp-contact-title-wrapper .tp-section-title-pre::after {
   border: 1px solid var(--tp-common-white);
 }
-.tp-Контакты-title-wrapper p {
+.tp-contact-title-wrapper p {
   margin-bottom: 55px;
   color: var(--tp-common-white);
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-title-wrapper p {
+  .tp-contact-title-wrapper p {
     margin-bottom: 40px;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-title-wrapper p br {
+  .tp-contact-title-wrapper p br {
     display: none;
   }
 }
-.tp-Контакты-thumb .shape-main {
+.tp-contact-thumb .shape-main {
   position: absolute;
   bottom: 0;
   right: 17%;
   z-index: 4;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .tp-Контакты-thumb .shape-main {
+  .tp-contact-thumb .shape-main {
     right: 2%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .tp-Контакты-thumb .shape-main {
+  .tp-contact-thumb .shape-main {
     right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-thumb .shape-main {
+  .tp-contact-thumb .shape-main {
     display: none;
   }
 }
-.tp-Контакты-thumb .shape-1 {
+.tp-contact-thumb .shape-1 {
   position: absolute;
   top: 0;
   right: 6%;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .tp-Контакты-thumb .shape-1 {
+  .tp-contact-thumb .shape-1 {
     right: 2%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .tp-Контакты-thumb .shape-1 {
+  .tp-contact-thumb .shape-1 {
     right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-thumb .shape-1 {
+  .tp-contact-thumb .shape-1 {
     display: none;
   }
 }
-.tp-Контакты-thumb .shape-2 {
+.tp-contact-thumb .shape-2 {
   position: absolute;
   bottom: 50px;
   right: 7%;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .tp-Контакты-thumb .shape-2 {
+  .tp-contact-thumb .shape-2 {
     right: 2%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .tp-Контакты-thumb .shape-2 {
+  .tp-contact-thumb .shape-2 {
     right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-thumb .shape-2 {
+  .tp-contact-thumb .shape-2 {
     display: none;
   }
 }
-.tp-Контакты-thumb .shape-3 {
+.tp-contact-thumb .shape-3 {
   position: absolute;
   top: 25px;
   right: 14%;
 }
 @media only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px) {
-  .tp-Контакты-thumb .shape-3 {
+  .tp-contact-thumb .shape-3 {
     right: 2%;
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .tp-Контакты-thumb .shape-3 {
+  .tp-contact-thumb .shape-3 {
     right: 0;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-thumb .shape-3 {
+  .tp-contact-thumb .shape-3 {
     display: none;
   }
 }
-.tp-Контакты-btn-box .tp-btn:not(:last-of-type) {
+.tp-contact-btn-box .tp-btn:not(:last-of-type) {
   margin-right: 25px;
 }
 @media (max-width: 575px) {
-  .tp-Контакты-btn-box .tp-btn:not(:last-of-type) {
+  .tp-contact-btn-box .tp-btn:not(:last-of-type) {
     margin-bottom: 30px;
   }
 }
-.tp-Контакты-btn-box .tp-btn:hover {
+.tp-contact-btn-box .tp-btn:hover {
   color: var(--tp-theme-secondary);
   background: var(--tp-common-white);
 }
-.tp-Контакты-btn-box .tp-btn.white {
+.tp-contact-btn-box .tp-btn.white {
   color: var(--tp-theme-secondary);
   background: var(--tp-common-white);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .tp-Контакты-2-p {
+  .tp-contact-2-p {
     padding-top: 130px;
     padding-bottom: 130px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .tp-Контакты-2-p {
+  .tp-contact-2-p {
     padding-top: 100px;
     padding-bottom: 120px;
   }
 }
 @media (max-width: 575px) {
-  .tp-Контакты-2-p {
+  .tp-contact-2-p {
     padding-top: 100px;
     padding-bottom: 100px;
   }
 }
-.tp-Контакты-2-shape {
+.tp-contact-2-shape {
   position: absolute;
   top: 40px;
   z-index: 0;
@@ -11625,11 +11625,11 @@ blockquote img {
   background-position: top center;
 }
 @media only screen and (min-width: 1701px) and (max-width: 1800px) {
-  .tp-Контакты-2-shape img {
+  .tp-contact-2-shape img {
     width: 100%;
   }
 }
-.tp-Контакты-2-title {
+.tp-contact-2-title {
   font-size: 55px;
   font-weight: 700;
   letter-spacing: 0.02px;
@@ -11637,101 +11637,101 @@ blockquote img {
   color: var(--tp-common-white);
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .tp-Контакты-2-title {
+  .tp-contact-2-title {
     font-size: 50px;
   }
 }
 @media (max-width: 575px) {
-  .tp-Контакты-2-title {
+  .tp-contact-2-title {
     font-size: 38px;
   }
 }
-.tp-Контакты-2-call {
+.tp-contact-2-call {
   margin-bottom: 45px;
 }
-.tp-Контакты-2-call span {
+.tp-contact-2-call span {
   font-size: 18px;
   font-weight: 600;
   color: var(--tp-common-white);
 }
-.tp-Контакты-2-call span a {
+.tp-contact-2-call span a {
   color: var(--tp-theme-primary);
 }
-.tp-Контакты-2-call span a:hover {
+.tp-contact-2-call span a:hover {
   color: var(--tp-common-white);
 }
-.tp-Контакты-2-btn .tp-btn:hover {
+.tp-contact-2-btn .tp-btn:hover {
   color: var(--tp-theme-primary);
   background: var(--tp-common-white);
 }
 
-.tp-Контакты-6-area {
+.tp-contact-6-area {
   background-repeat: no-repeat;
   background-size: cover;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
-  .tp-Контакты-6-area {
+  .tp-contact-6-area {
     padding-bottom: 180px;
   }
 }
 @media (max-width: 575px) {
-  .tp-Контакты-6-area {
+  .tp-contact-6-area {
     padding-bottom: 160px;
   }
 }
-.tp-Контакты-6-shape {
+.tp-contact-6-shape {
   position: absolute;
   bottom: 0;
   left: 0;
 }
-.tp-Контакты-6-shape img {
+.tp-contact-6-shape img {
   width: 100%;
 }
-.tp-Контакты-6-box {
+.tp-contact-6-box {
   padding: 65px 80px 50px 80px;
   background: var(--tp-common-white);
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .tp-Контакты-6-box {
+  .tp-contact-6-box {
     padding: 40px;
   }
 }
 @media (max-width: 575px) {
-  .tp-Контакты-6-box {
+  .tp-contact-6-box {
     padding: 30px;
   }
 }
-.tp-Контакты-6-title {
+.tp-contact-6-title {
   font-size: 55px;
   font-weight: 700;
   color: var(--tp-heading-2);
   margin-bottom: 60px;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-6-title {
+  .tp-contact-6-title {
     font-size: 40px;
     margin-bottom: 30px;
   }
 }
-.tp-Контакты-6-form input {
+.tp-contact-6-form input {
   font-size: 16px;
   margin-bottom: 30px;
 }
-.tp-Контакты-6-form input::placeholder {
+.tp-contact-6-form input::placeholder {
   font-size: 16px;
 }
-.tp-Контакты-6-form input:focus {
+.tp-contact-6-form input:focus {
   border: 1px solid var(--tp-theme-4);
 }
-.tp-Контакты-6-btn .tp-btn {
+.tp-contact-6-btn .tp-btn {
   background: var(--tp-theme-4);
 }
-.tp-Контакты-6-btn .tp-btn span {
+.tp-contact-6-btn .tp-btn span {
   font-size: 18px;
   margin-left: 8px;
 }
 
-.tp-Контакты-7-bg {
+.tp-contact-7-bg {
   position: absolute;
   top: 0;
   left: 0;
@@ -11742,11 +11742,11 @@ blockquote img {
   z-index: -1;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-7-bg {
+  .tp-contact-7-bg {
     width: 100%;
   }
 }
-.tp-Контакты-7-bg::before {
+.tp-contact-7-bg::before {
   position: absolute;
   content: "";
   top: 0;
@@ -11757,52 +11757,52 @@ blockquote img {
   background: var(--tp-theme-secondary);
   z-index: 0;
 }
-.tp-Контакты-7-shape {
+.tp-contact-7-shape {
   position: absolute;
   bottom: 0px;
   right: 0;
   z-index: 2;
 }
 @media only screen and (min-width: 1701px) and (max-width: 1800px), only screen and (min-width: 1600px) and (max-width: 1700px), only screen and (min-width: 1400px) and (max-width: 1599px), only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
-  .tp-Контакты-7-shape {
+  .tp-contact-7-shape {
     z-index: 1;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-7-shape {
+  .tp-contact-7-shape {
     display: none;
   }
 }
-.tp-Контакты-7-title {
+.tp-contact-7-title {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 40px;
 }
-.tp-Контакты-7-title-wrapper {
+.tp-contact-7-title-wrapper {
   position: relative;
   z-index: 1;
   margin-bottom: 100px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-7-title-wrapper {
+  .tp-contact-7-title-wrapper {
     margin-bottom: 65px;
   }
 }
-.tp-Контакты-7-title-wrapper .tp-section-title {
+.tp-contact-7-title-wrapper .tp-section-title {
   margin-bottom: 50px;
   color: var(--tp-common-white);
 }
-.tp-Контакты-7-angel {
+.tp-contact-7-angel {
   position: absolute;
   bottom: -30px;
   right: 15px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px), (max-width: 575px) {
-  .tp-Контакты-7-angel {
+  .tp-contact-7-angel {
     display: none;
   }
 }
-.tp-Контакты-7-box {
+.tp-contact-7-box {
   position: relative;
   padding: 60px 55px;
   z-index: 1;
@@ -11810,21 +11810,21 @@ blockquote img {
   box-shadow: 0px 0px 60px 0px rgba(30, 22, 22, 0.06);
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px) {
-  .tp-Контакты-7-box {
+  .tp-contact-7-box {
     padding: 50px 35px;
   }
 }
 @media (max-width: 575px) {
-  .tp-Контакты-7-box {
+  .tp-contact-7-box {
     padding: 40px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
-  .tp-Контакты-7-project {
+  .tp-contact-7-project {
     flex-wrap: wrap;
   }
 }
-.tp-Контакты-7-form input, .tp-Контакты-7-form textarea {
+.tp-contact-7-form input, .tp-contact-7-form textarea {
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 400;
@@ -11832,56 +11832,56 @@ blockquote img {
   height: 60px;
   border: 1px solid rgb(235, 235, 235);
 }
-.tp-Контакты-7-form input::placeholder, .tp-Контакты-7-form textarea::placeholder {
+.tp-contact-7-form input::placeholder, .tp-contact-7-form textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
   color: #565969;
 }
-.tp-Контакты-7-form input:focus, .tp-Контакты-7-form textarea:focus {
+.tp-contact-7-form input:focus, .tp-contact-7-form textarea:focus {
   border: 1px solid var(--tp-theme-primary);
 }
-.tp-Контакты-7-form textarea {
+.tp-contact-7-form textarea {
   height: 126px;
   resize: none;
 }
-.tp-Контакты-7-complete {
+.tp-contact-7-complete {
   position: relative;
   padding: 50px;
   z-index: 2;
   background: var(--tp-common-white);
   box-shadow: 0px 0px 60px 0px rgba(0, 8, 21, 0.1);
 }
-.tp-Контакты-7-complete:not(:last-of-type) {
+.tp-contact-7-complete:not(:last-of-type) {
   margin-right: 20px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 575px) {
-  .tp-Контакты-7-complete:not(:last-of-type) {
+  .tp-contact-7-complete:not(:last-of-type) {
     margin-right: 0;
     margin-bottom: 30px;
   }
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
-  .tp-Контакты-7-complete {
+  .tp-contact-7-complete {
     padding: 40px;
   }
 }
 @media (max-width: 575px) {
-  .tp-Контакты-7-complete {
+  .tp-contact-7-complete {
     padding: 30px;
     margin-bottom: 30px;
   }
 }
-.tp-Контакты-7-count {
+.tp-contact-7-count {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 5px;
 }
-.tp-Контакты-7-btn .tp-btn:hover {
+.tp-contact-7-btn .tp-btn:hover {
   color: var(--tp-theme-secondary);
   background: var(--tp-common-white);
 }
 
-.tp-Контакты-wrapper {
+.tp-contact-wrapper {
   position: relative;
   z-index: 1;
   padding: 100px;
@@ -11890,30 +11890,30 @@ blockquote img {
   box-shadow: 0px 0px 80px 0px rgba(30, 22, 22, 0.04);
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px), only screen and (min-width: 992px) and (max-width: 1199px) {
-  .tp-Контакты-wrapper {
+  .tp-contact-wrapper {
     padding: 70px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 576px) and (max-width: 767px) {
-  .tp-Контакты-wrapper {
+  .tp-contact-wrapper {
     padding: 50px;
   }
 }
 @media (max-width: 575px) {
-  .tp-Контакты-wrapper {
+  .tp-contact-wrapper {
     padding: 30px;
   }
 }
-.tp-Контакты-title {
+.tp-contact-title {
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 30px;
   color: var(--tp-theme-secondary);
 }
-.tp-Контакты-input {
+.tp-contact-input {
   margin-bottom: 30px;
 }
-.tp-Контакты-input input, .tp-Контакты-input textarea {
+.tp-contact-input input, .tp-contact-input textarea {
   font-size: 16px;
   font-weight: 400;
   height: 60px;
@@ -11921,19 +11921,19 @@ blockquote img {
   background-color: rgb(248, 248, 248);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
-.tp-Контакты-input input::placeholder, .tp-Контакты-input textarea::placeholder {
+.tp-contact-input input::placeholder, .tp-contact-input textarea::placeholder {
   font-size: 16px;
   font-weight: 400;
   color: #565969;
 }
-.tp-Контакты-input input:focus, .tp-Контакты-input textarea:focus {
+.tp-contact-input input:focus, .tp-contact-input textarea:focus {
   border: 1px solid var(--tp-theme-primary);
 }
-.tp-Контакты-input textarea {
+.tp-contact-input textarea {
   height: 166px;
   resize: none;
 }
-.tp-Контакты-item {
+.tp-contact-item {
   position: relative;
   z-index: 1;
   padding: 30px;
@@ -11945,23 +11945,23 @@ blockquote img {
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 4px 60px 0px rgba(22, 23, 26, 0.06);
 }
-.tp-Контакты-item:hover {
+.tp-contact-item:hover {
   background: var(--tp-theme-secondary);
 }
-.tp-Контакты-item:hover .tp-Контакты-item-icon span {
+.tp-contact-item:hover .tp-contact-item-icon span {
   color: var(--tp-common-white);
   background: var(--tp-theme-primary);
 }
-.tp-Контакты-item:hover .tp-Контакты-item-title {
+.tp-contact-item:hover .tp-contact-item-title {
   color: var(--tp-common-white);
 }
-.tp-Контакты-item:hover .tp-Контакты-item-content a {
+.tp-contact-item:hover .tp-contact-item-content a {
   color: var(--tp-common-white);
 }
-.tp-Контакты-item-icon {
+.tp-contact-item-icon {
   margin-bottom: 22px;
 }
-.tp-Контакты-item-icon span {
+.tp-contact-item-icon span {
   font-size: 26px;
   height: 80px;
   width: 80px;
@@ -11977,18 +11977,18 @@ blockquote img {
   color: var(--tp-theme-primary);
   background: rgb(245, 245, 248);
 }
-.tp-Контакты-item-content p {
+.tp-contact-item-content p {
   font-size: 16px;
   font-weight: 400;
   color: #565969;
 }
-.tp-Контакты-item-title {
+.tp-contact-item-title {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 10px;
   color: var(--tp-theme-secondary);
 }
-.tp-Контакты-box {
+.tp-contact-box {
   margin-bottom: -80px;
 }
 
@@ -12831,13 +12831,13 @@ blockquote img {
 .tp-testimonial-rating.pink i {
   color: var(--tp-theme-4);
 }
-.tp-testimonial-wrapper.Контакты {
+.tp-testimonial-wrapper.contact {
   position: relative;
 }
-.tp-testimonial-wrapper.Контакты .tp-section-title {
+.tp-testimonial-wrapper.contact .tp-section-title {
   color: var(--tp-common-white);
 }
-.tp-testimonial-wrapper.Контакты .tp-section-title-pre-2 {
+.tp-testimonial-wrapper.contact .tp-section-title-pre-2 {
   color: var(--tp-common-white);
 }
 .tp-testimonial-active .swiper-slide {

@@ -81,7 +81,7 @@
 
         // Set the email subject.
 
-        $sender = "New Контакты from $name";
+        $sender = "New contact from $name";
 
 
 

@@ -4126,16 +4126,6 @@ div.demo img {
   transition: none;
   color: var(--tp-theme-secondary);
 }
-.tp-main-menu ul li .submenu li a::before {
-  position: absolute;
-  content: "";
-  top: 12PX;
-  left: 0px;
-  height: 2px;
-  width: 0;
-  background: var(--tp-theme-primary);
-  transition: all 0.3s ease-in-out;
-}
 .tp-main-menu ul li .submenu li a span {
   -webkit-transition: all 0.3s 0s ease-out;
   -moz-transition: all 0.3s 0s ease-out;
